@@ -1,1 +1,16 @@
-<p>main-nav works!</p>
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark black">
+    <mdb-navbar-brand>
+        <a href="" [routerLink]="['landing']" class="navbar-brand">VAN KERKVOORDE SPACE</a>
+    </mdb-navbar-brand>
+    <links>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect [routerLink]="['home']">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect [routerLink]="['mooncapsule']">MOON</a>
+            </li>
+        </ul>
+    </links>
+</mdb-navbar>
+<ng-content></ng-content>
