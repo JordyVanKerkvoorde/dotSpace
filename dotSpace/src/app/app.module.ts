@@ -4,11 +4,19 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MoonCapsuleComponent } from './moon-capsule/moon-capsule.component';
+import { HomeComponent } from './home/home.component';
+import { LandingComponent } from './landing/landing.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { MainNavComponent } from './main-nav/main-nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MoonCapsuleComponent
+    MoonCapsuleComponent,
+    HomeComponent,
+    LandingComponent,
+    PageNotFoundComponent,
+    MainNavComponent
   ],
   imports: [
     BrowserModule,
